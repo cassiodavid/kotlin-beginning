@@ -3,7 +3,32 @@
 * */
 fun main(args: Array<String>) {
 
-     val caralhos = mutableListOf<String>()
+    var count : Int = 10
+
+    println(count)
+
+    count = 2
+    println(count)
+
+    val umNome : String = "Um Nome"
+
+    println(umNome)
+
+
+    //String Noot Null
+    //val languageName: String = null
+
+    //Coloca uma ? e pode aceitar valores null
+    val algoNullo : String? = null
+
+
+
+}
+
+
+
+fun savvv(): Unit {
+    val caralhos = mutableListOf<String>()
     caralhos.add("oxi")
 
     println(caralhos.size)

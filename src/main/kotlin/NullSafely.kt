@@ -8,8 +8,7 @@ fun main(args: Array<String>) {
     neverNull = null
 
     */
-
-                                           // 2
+    // 2
 
     var nullable: String? = "You can keep a null here"      // 3
 
@@ -21,10 +20,26 @@ fun main(args: Array<String>) {
 
 
     println(nullable)                                  // 8
-    println(strLength(nullable))
+   // println(strLength(nullable))
 
 
+    var count : Int = 10
 
+    println(count)
+
+    count = 2
+    println(count)
+
+    val umNome : String = "Um Nome"
+
+    println(umNome)
+
+
+    //String Noot Null
+   // val languageName: String = null
+
+    //Coloca uma ? e pode aceitar valores null
+    val algoNullo : String? = null
 }
 
 fun strLength(notNull: String): Int {                   // 7
